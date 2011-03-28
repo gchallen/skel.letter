@@ -1,5 +1,6 @@
 START = xxxnote
 END = missing
+CLASS = $(PYTEX)/cls/letter.cls
 
 all: letter
 
@@ -7,4 +8,4 @@ all: letter
 
 clean: rulesclean
 
-include Makerules
+include $(PYTEX)/make/Makerules
